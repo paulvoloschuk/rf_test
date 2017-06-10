@@ -8,7 +8,7 @@ let state = {
       },
       from: 'Amazon',
       url: '#',
-      src: '/img/items/s-l640.jpg',
+      src: 'img/items/s-l640.jpg',
       options: ['Free Shipping'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
@@ -20,7 +20,7 @@ let state = {
       },
       from: 'Amazon',
       url: '#',
-      src: '/img/items/s-l641.jpg',
+      src: 'img/items/s-l641.jpg',
       options: ['New', 'Free Shipping'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
       expires: 'Wed Jun 15 2017 17:00:00 GMT+0300 (Eastern Europe Daylight Time)'
@@ -33,7 +33,7 @@ let state = {
       },
       from: 'Amazon',
       url: '#',
-      src: '/img/items/s-l642.jpg',
+      src: 'img/items/s-l642.jpg',
       options: ['Free Shipping'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       expires: 'Sat Jun 10 2017 07:00:00 GMT+0300 (Eastern Europe Daylight Time)'
@@ -46,7 +46,7 @@ let state = {
       },
       from: 'Amazon',
       url: '#',
-      src: '/img/items/s-l643.jpg',
+      src: 'img/items/s-l643.jpg',
       options: ['New'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
       expires: 'Thu Jun 15 2017 07:00:00 GMT+0300 (Eastern Europe Daylight Time)'
@@ -59,7 +59,7 @@ let state = {
       },
       from: 'Ebay',
       url: '#',
-      src: '/img/items/s-l644.jpg',
+      src: 'img/items/s-l644.jpg',
       options: ['New', 'Free Shipping'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       expires: 'Mon Jun 13 2017 14:30:00 GMT+0300 (Eastern Europe Daylight Time)'
@@ -84,7 +84,7 @@ let state = {
       },
       from: 'Ebay',
       url: '#',
-      src: '/img/items/s-l645.jpg',
+      src: 'img/items/s-l645.jpg',
       options: ['New', 'Free Shipping'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     },
@@ -96,7 +96,7 @@ let state = {
       },
       from: 'Ebay',
       url: '#',
-      src: '/img/items/s-l646.jpg',
+      src: 'img/items/s-l646.jpg',
       options: ['New'],
       description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
     }
