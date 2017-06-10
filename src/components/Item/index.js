@@ -19,7 +19,7 @@ class Item extends Component {
           time = {},
           days = 0;
 
-        if (difference < 0) {console.log('expired!!!');return 'expired';}
+        if (difference < 0) return 'expired';
         else {
           days = Math.floor(Math.floor(Math.floor(difference / 60) / 60) / 24);
           time.hours = Math.floor(Math.floor(difference / 60) / 60) % 24;
@@ -36,7 +36,6 @@ class Item extends Component {
     });
   }
   render() {
-    console.log(this.state.expires);
     let {...data} = this.props.data,
         greenChanel = Number(Math.floor((100 - data.discount) * 2.55)).toString(16).toUpperCase(),
         expired = (this.state.expires === 'expired'),
@@ -48,7 +47,6 @@ class Item extends Component {
             <span className="item__from">{data.from}</span>
           </div>
         );
-        console.log(expired);
     return (
       <div className="item__margin">
         <a href={(expired) ? '' : data.url} className={`item ${expired && this.state.expires}`} style={{outlineColor: color}}>
